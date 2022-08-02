@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7b9e3a7beac514aa2b23ae74879605, type: 3}
+  m_Name: GroundMovementData
+  m_EditorClassIdentifier: 
+  m_skeletonDataAsset: {fileID: 11400000, guid: 751bca5dfcd98ac42a256651f38375a5, type: 2}
+  m_moveAnimation: {fileID: 11400000, guid: 3d78708c8ccf13b41a93061201335e1c, type: 2}
+  m_idleAnimation: {fileID: 11400000, guid: 92269bed84738394f9f60e35957ff338, type: 2}
+  m_speed: 25
+  m_maxSpeed: 50
+  m_velPower: 50
+  m_runAccelAmount: 20
+  m_runDeccelAmount: 20
+  m_accelInAir: 0.835
+  m_deccelInAir: 0.95
+  m_doConserveMomentum: 0
