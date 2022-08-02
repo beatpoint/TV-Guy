@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: tv guy (gian project)  tv face with main default character 3 _SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: d8fac423040e7f8429da256ea585f753, type: 2}
+  - {fileID: 11400000, guid: 43f1ef1ecd600b04fb51352194dff050, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: d1c59ba00588bf740a491371d7197402, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 00df3ef41484c8c4ca7b91b1e282d9f0, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 0

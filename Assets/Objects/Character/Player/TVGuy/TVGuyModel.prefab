@@ -403,7 +403,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f868ee2c6d9a70f48ba0a7f72fbb86be, type: 2}
+  - {fileID: 2100000, guid: e164e0945aada704683b149e80404f32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 751bca5dfcd98ac42a256651f38375a5, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 8293bed49f46b994288da13954d622ae, type: 2}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
@@ -794,6 +794,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2350784403424137455}
   - component: {fileID: 1623133634713748674}
+  - component: {fileID: 4728297902140090066}
+  - component: {fileID: 8508539734875323798}
   m_Layer: 14
   m_Name: LegCollider
   m_TagString: Untagged
@@ -831,6 +833,38 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.6}
   m_Size: {x: 5, y: 1}
   m_Direction: 1
+--- !u!114 &4728297902140090066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838798583258868609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a39bb3be861642408d6c9ea6011ae05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_collisionMask:
+    serializedVersion: 2
+    m_Bits: 512
+  m_collider: {fileID: 1623133634713748674}
+  m_recordsContactPoints: 1
+--- !u!114 &8508539734875323798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838798583258868609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da56577f850daac44a45aa5ccd3e3a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_mask:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &890606427448072678
 GameObject:
   m_ObjectHideFlags: 0

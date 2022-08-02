@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7b9e3a7beac514aa2b23ae74879605, type: 3}
   m_Name: GroundMovementData
   m_EditorClassIdentifier: 
-  m_skeletonDataAsset: {fileID: 11400000, guid: 751bca5dfcd98ac42a256651f38375a5, type: 2}
+  m_skeletonDataAsset: {fileID: 11400000, guid: 8293bed49f46b994288da13954d622ae, type: 2}
   m_moveAnimation: {fileID: 11400000, guid: 3d78708c8ccf13b41a93061201335e1c, type: 2}
   m_idleAnimation: {fileID: 11400000, guid: 92269bed84738394f9f60e35957ff338, type: 2}
   m_speed: 25
