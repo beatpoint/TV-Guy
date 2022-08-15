@@ -17,6 +17,8 @@ namespace TVGuy.Gameplay
         [SerializeField]
         protected List<AttackData> m_data;
         [SerializeField]
+        protected List<Hurtbox> m_hurtbox;
+        [SerializeField]
         protected SkeletonRootMotion m_rootMotion;
 
         protected CooldownTimer m_cooldownTimer;

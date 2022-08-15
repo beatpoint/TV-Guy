@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d3cd38ee3952a429233599eb2a5155, type: 3}
   m_Name: GroundAttack1Data
   m_EditorClassIdentifier: 
-  m_idleAnimation: {fileID: 11400000, guid: bf73b3c99c96ffa4daff3fae48d8db7f, type: 2}
-  m_attackAnimation: {fileID: 11400000, guid: c111267ae4f3b2948984df94b1f170b3, type: 2}
+  m_idleAnimation: {fileID: 11400000, guid: e34ec1d936ce3644580f93f9560411e5, type: 2}
+  m_attackAnimation: {fileID: 11400000, guid: c215e128ab49b414c94ce15e5b037b97, type: 2}
   m_damage: 25

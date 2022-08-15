@@ -15,6 +15,7 @@ namespace TVGuy.Gameplay
             if (!m_isAttacking)
             {
                 StartCoroutine(AttackRoutine());
+                m_hurtbox[m_attackCount].ActivatedHurtbox();
             }
         }
 
@@ -32,13 +33,14 @@ namespace TVGuy.Gameplay
         {
             m_isAttacking = true;
             m_rootMotion.rootMotionScaleX = 1;
+            m_cooldownTimer.StopCooldown();
             m_animation.AnimationState.SetAnimation(0, m_data[m_attackCount].attackAnimation, false);
             yield return new WaitUntil(() => m_animation.AnimationState.GetCurrent(0).IsComplete);
             m_isAttacking = false;
             m_rootMotion.rootMotionScaleX = 0;
             m_animation.AnimationState.SetAnimation(0, m_data[m_attackCount].idleAnimation, true);
             m_cooldownTimer.StartCooldown();
-            m_attackCount = /*!m_cooldownTimer.inCooldown ||*/ m_attackCount > m_data.Count - 1 ? 0 : m_attackCount;
+            m_attackCount = /*!m_cooldownTimer.inCooldown ||*/ m_attackCount == m_data.Count ? 0 : m_attackCount;
             yield return null;
         }
     }

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: tv guy (gian project)  tv face with main default character 3_Atlas
   m_EditorClassIdentifier: 
-  atlasFile: {fileID: 4900000, guid: 8905b47b95afe1b4f893cd319faf4b3b, type: 3}
+  atlasFile: {fileID: 4900000, guid: 7d921a59f0d06fe4aaafb443f080efed, type: 3}
   materials:
-  - {fileID: 2100000, guid: e164e0945aada704683b149e80404f32, type: 2}
+  - {fileID: 2100000, guid: a737408d639137d4790634d0e42078dd, type: 2}

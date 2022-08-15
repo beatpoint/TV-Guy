@@ -19,12 +19,15 @@ namespace TVGuy.Gameplay
 
         public void StartCooldown()
         {
+            m_cooldownCoroutine = StartCoroutine(CooldownRoutine());
+        }
+        public void StopCooldown()
+        {
             if (m_cooldownCoroutine != null)
             {
                 StopCoroutine(m_cooldownCoroutine);
                 m_cooldownCoroutine = null;
             }
-            m_cooldownCoroutine = StartCoroutine(CooldownRoutine());
         }
 
         private IEnumerator CooldownRoutine()
