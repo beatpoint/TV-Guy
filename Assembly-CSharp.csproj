@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{15DE59BA-E439-B123-4ACD-754F0FE68FB4}</ProjectGuid>
+    <ProjectGuid>{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1363,27 +1363,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{673ACCB3-A2B0-65E9-22B6-F06A2FDCC59C}</Project>
+      <Project>{31825723-7CD2-CD5A-1165-46433AFD0359}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{B5DE3599-8E6B-3D98-DEC6-A47DE1715888}</Project>
+      <Project>{18DF5344-D476-C127-243A-11B16F8D34F8}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{329A0AA6-09E3-68C1-CB7B-E186F4AF03CD}</Project>
+      <Project>{57922E2C-5A29-06C5-FBD0-2CF0729BFDBC}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
-      <Project>{E95C735D-524C-373C-176F-B67D56988AD8}</Project>
+      <Project>{27DAA757-68AA-7807-771A-7538C31CDFAB}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{1C4407BD-E723-782C-1093-10796C9009DB}</Project>
+      <Project>{48AA1CFB-7443-049A-ADAE-88B537317C07}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{298964BE-11FD-E337-D5F6-908D318211B9}</Project>
+      <Project>{76D8BE08-AB60-B459-A6FB-83EDFAE96859}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
   </ItemGroup>

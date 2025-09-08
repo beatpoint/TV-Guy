@@ -12,6 +12,7 @@ public class PlayerAnimation : MonoBehaviour
     public void IsJumping(bool condition)
     {
         m_animator.SetBool("isJumping", condition);
+        m_animator.Play("PlayerJump");
     }
 
     public void IsDoubleJumping(bool condition)
