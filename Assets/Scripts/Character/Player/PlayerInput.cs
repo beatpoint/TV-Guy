@@ -21,11 +21,15 @@ public class PlayerInput : MonoBehaviour
             if (moveInput == Vector2.zero)
             {
                 Debug.Log($"Move Input: {moveInput}");
-                if (m_state.CurrentState() != CharacterState.State.Idle)
+                if (m_state.CurrentState() != CharacterState.State.Idle && m_state.GetGroundnessState() == CharacterState.GroundnessState.OnGround)
                 {
                     m_state.ChangeState(CharacterState.State.Idle);
                 }
             }
+            //else
+            //{
+            //    m_state.ChangeState(CharacterState.State.Running);
+            //}
         }
     }
 
@@ -80,9 +84,10 @@ public class PlayerInput : MonoBehaviour
     {
         if (moveInput.x != 0 && m_state.CurrentState() != CharacterState.State.Flinching)
         {
-            Debug.Log($"Move Input: {moveInput}");
+            //Debug.Log($"Move Input: {moveInput}");
             m_movement.SetMoveDirection(moveInput.x > 0 ? Vector2.right : Vector2.left);
-            m_state.ChangeState(CharacterState.State.Running);
+            if (m_state.GetGroundnessState() == CharacterState.GroundnessState.OnGround)
+                m_state.ChangeState(CharacterState.State.Running);
         }
     }
 }

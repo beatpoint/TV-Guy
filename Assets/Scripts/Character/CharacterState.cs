@@ -11,6 +11,7 @@ public class CharacterState : MonoBehaviour
         Walking,
         Running,
         Jumping,
+        Falling,
         Attacking,
         Flinching,
         Dead

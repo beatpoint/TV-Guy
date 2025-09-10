@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
@@ -21,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     private bool m_canDoubleJump;
     private bool m_hasDoubleJumped;
     private bool m_hasJumped;
+    private bool m_isFalling;
     private bool m_isFlinching;
 
 
@@ -85,14 +87,20 @@ public class PlayerMovement : MonoBehaviour
 
     public void JumpStop()
     {
-        m_hasJumped = false;
-        m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnGround);
-        m_state.ChangeState(CharacterState.State.Idle);
-        m_animation.IsJumping(false);
-        if (m_hasDoubleJumped)
+        if (m_hasJumped || m_isFalling)
         {
-            m_hasDoubleJumped = false;
-            m_animation.IsDoubleJumping(false);
+            m_rigidbody2D.AddForce(new Vector2(-m_rigidbody2D.linearVelocity.x, m_rigidbody2D.linearVelocity.y));
+            m_hasJumped = false;
+            m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnGround);
+            m_state.ChangeState(CharacterState.State.Idle);
+            m_animation.IsJumping(false);
+            if (m_hasDoubleJumped)
+            {
+                m_hasDoubleJumped = false;
+                m_animation.IsDoubleJumping(false);
+            }
+            m_animation.IsFalling(false);
+            m_isFalling = false;
         }
     }
 
@@ -136,6 +144,8 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
+        m_state.ChangeState(CharacterState.State.Idle);
+        m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnGround);
     }
 
     // Update is called once per frame
@@ -164,6 +174,26 @@ public class PlayerMovement : MonoBehaviour
 
             case CharacterState.State.Jumping:
                 //Debug.Log("Player is in the air.");
+                Debug.Log("Y Velocity " + m_rigidbody2D.linearVelocityY);
+                if (m_rigidbody2D.linearVelocityY < 0f)
+                {
+                    m_state.ChangeState(CharacterState.State.Falling);
+                }
+                break;
+
+            case CharacterState.State.Falling:
+                //Debug.Log("Player is in the air.");
+                if (!m_isFalling)
+                {
+                    m_isFalling = true;
+                    m_animation.IsJumping(false);
+                    m_animation.IsFalling(true);
+                }
+                //if (m_groundChecker.IsGrounded())
+                //{
+                //    m_animation.IsFalling(false);
+                //    m_isFalling = false;
+                //}
                 break;
 
             case CharacterState.State.Attacking:
