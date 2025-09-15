@@ -948,6 +948,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7280007522561095504}
     - target: {fileID: 5674108146170577156, guid: b0ac440b3c2e4bc4ba45599579f63974, type: 3}
+      propertyPath: m_combat
+      value: 
+      objectReference: {fileID: 7280007522561095505}
+    - target: {fileID: 5674108146170577156, guid: b0ac440b3c2e4bc4ba45599579f63974, type: 3}
       propertyPath: m_movement
       value: 
       objectReference: {fileID: 457206670}
@@ -1132,6 +1136,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c62b9238a18d974ea8635bc587b5fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterState
+--- !u!114 &7280007522561095505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2910124881366357823, guid: d62f39a458ee45849b167ee7b49d5741, type: 3}
+  m_PrefabInstance: {fileID: 7280007522561095503}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd34230f24aa304cac9035f606ee2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

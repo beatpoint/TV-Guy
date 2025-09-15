@@ -7,6 +7,8 @@ public class PlayerInput : MonoBehaviour
     private CharacterState m_state;
     [SerializeField] 
     private PlayerMovement m_movement;
+    [SerializeField]
+    private PlayerCombat m_combat;
 
     //private UnityEngine.InputSystem.PlayerInput m_input;
 
@@ -20,24 +22,20 @@ public class PlayerInput : MonoBehaviour
         {
             if (moveInput == Vector2.zero)
             {
-                Debug.Log($"Move Input: {moveInput}");
+                //Debug.Log($"Move Input: {moveInput}");
                 if (m_state.CurrentState() != CharacterState.State.Idle && m_state.GetGroundnessState() == CharacterState.GroundnessState.OnGround)
                 {
                     m_state.ChangeState(CharacterState.State.Idle);
                 }
             }
-            //else
-            //{
-            //    m_state.ChangeState(CharacterState.State.Running);
-            //}
         }
     }
 
     public void OnJump(InputAction.CallbackContext context)
     {
-        if (context.performed && m_state.CurrentState() != CharacterState.State.Flinching)
+        if (context.performed && m_state.CurrentState() != CharacterState.State.Flinching && m_state.CurrentState() != CharacterState.State.Attacking)
         {
-            Debug.Log("Jump Input Pressed");
+            //Debug.Log("Jump Input Pressed");
             m_movement.Jump();
         }
     }
@@ -45,7 +43,13 @@ public class PlayerInput : MonoBehaviour
     {
         if (context.performed)
         {
-            Debug.Log("I'm attacking MORTY!");
+            //Debug.Log("I'm attacking MORTY!");
+            if (m_state.CurrentState() != CharacterState.State.Attacking && m_state.GetGroundnessState() == CharacterState.GroundnessState.OnGround)
+            {
+                m_state.ChangeState(CharacterState.State.Attacking);
+            }
+            if (m_combat.CanAttack())
+                m_combat.BasicAttack();
         }
     }
 
@@ -82,7 +86,7 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (moveInput.x != 0 && m_state.CurrentState() != CharacterState.State.Flinching)
+        if (moveInput.x != 0 && m_state.CurrentState() != CharacterState.State.Flinching && m_state.CurrentState() != CharacterState.State.Attacking)
         {
             //Debug.Log($"Move Input: {moveInput}");
             m_movement.SetMoveDirection(moveInput.x > 0 ? Vector2.right : Vector2.left);

@@ -53,6 +53,11 @@ public class PlayerMovement : MonoBehaviour
         Right
     }
 
+    public FacingPositon GetFacingPositon()
+    {
+        return m_facing;
+    }
+
     public void Jump()
     {
         if (!m_isFlinching)
@@ -141,11 +146,32 @@ public class PlayerMovement : MonoBehaviour
         m_rigidbody2D.AddForce(new Vector2(m_knockbackForce.x * -this.transform.localScale.x, m_knockbackForce.y));
     }
 
-    private void Start()
+    public void CheckGroundness()
+    {
+        m_animation.IsGrounded(m_groundChecker.IsGrounded());
+        switch (m_groundChecker.IsGrounded())
+        {
+            case true:
+                Debug.Log("Player is Grounded");
+                m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnGround);
+                break;
+            case false:
+                Debug.Log("Player is Midair");
+                m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnAir);
+                break;
+        }
+    }
+
+    private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_state.ChangeState(CharacterState.State.Idle);
         m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnGround);
+    }
+
+    private void Start()
+    {
+        m_facing = FacingPositon.Right;
     }
 
     // Update is called once per frame
@@ -174,7 +200,7 @@ public class PlayerMovement : MonoBehaviour
 
             case CharacterState.State.Jumping:
                 //Debug.Log("Player is in the air.");
-                Debug.Log("Y Velocity " + m_rigidbody2D.linearVelocityY);
+                //Debug.Log("Y Velocity " + m_rigidbody2D.linearVelocityY);
                 if (m_rigidbody2D.linearVelocityY < 0f)
                 {
                     m_state.ChangeState(CharacterState.State.Falling);
@@ -197,7 +223,8 @@ public class PlayerMovement : MonoBehaviour
                 break;
 
             case CharacterState.State.Attacking:
-                Debug.Log("Player is attacking!");
+                //Debug.Log("Player is attacking!");
+                m_animation.IsRunning(false);
                 break;
 
             case CharacterState.State.Flinching:

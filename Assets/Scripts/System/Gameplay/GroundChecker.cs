@@ -9,6 +9,8 @@ public class GroundChecker : MonoBehaviour
     private LayerMask m_groundLayer;
     [SerializeField]
     private UnityEvent m_onGroundTouch;
+    [SerializeField]
+    private UnityEvent m_onGroundUntouch;
 
     public bool IsGrounded()
     {
@@ -20,5 +22,10 @@ public class GroundChecker : MonoBehaviour
     {
         if (IsGrounded())
             m_onGroundTouch.Invoke();
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        m_onGroundUntouch.Invoke();
     }
 }

@@ -469,6 +469,7 @@
 "Assets/Scripts/Character/Health.cs"
 "Assets/Scripts/Character/Player/PlayerAnimation.cs"
 "Assets/Scripts/Character/Player/PlayerAttack.cs"
+"Assets/Scripts/Character/Player/PlayerCombat.cs"
 "Assets/Scripts/Character/Player/PlayerHealth.cs"
 "Assets/Scripts/Character/Player/PlayerInput.cs"
 "Assets/Scripts/Character/Player/PlayerMovement.cs"

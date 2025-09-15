@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Character\Health.cs" />
+    <Compile Include="Assets\Scripts\Character\Player\PlayerCombat.cs" />
     <Compile Include="Assets\Scripts\Character\Attack.cs" />
     <Compile Include="Assets\Scripts\System\Gameplay\GroundChecker.cs" />
     <Compile Include="Assets\Scripts\Character\Damage.cs" />
