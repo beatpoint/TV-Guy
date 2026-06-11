@@ -139,6 +139,10 @@ public class PlayerMovement : MonoBehaviour
     {
         m_isFlinching = condition;
     }
+    public void SetKnockbackForce(Vector2 knockbackForce)
+    {
+        m_knockbackForce = knockbackForce;
+    }
 
     public void Knockback()
     {
@@ -225,6 +229,10 @@ public class PlayerMovement : MonoBehaviour
             case CharacterState.State.Attacking:
                 //Debug.Log("Player is attacking!");
                 m_animation.IsRunning(false);
+                //if (m_state.GetGroundnessState() == CharacterState.GroundnessState.OnGround && !m_isFlinching)
+                //{
+
+                //}
                 break;
 
             case CharacterState.State.Flinching:

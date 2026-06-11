@@ -12,6 +12,27 @@ public class GroundChecker : MonoBehaviour
     [SerializeField]
     private UnityEvent m_onGroundUntouch;
 
+    private Vector2 groundCheckSize = new Vector2(0.5f, 0.05f);
+    private float castDistance = 0.1f;
+
+    private void OnDrawGizmos()
+    {
+
+        Gizmos.color = Color.green;
+
+        Vector2 origin = m_groundCheckpoint.position;
+
+        // Starting box
+        Gizmos.DrawWireCube(origin, groundCheckSize);
+
+        // Ending box after cast
+        Vector2 endPosition = origin + Vector2.down * castDistance;
+        Gizmos.DrawWireCube(endPosition, groundCheckSize);
+
+        // Optional line between them
+        Gizmos.DrawLine(origin, endPosition);
+    }
+
     public bool IsGrounded()
     {
         Vector2 groundCheckSize = new Vector2(0.5f, 0.05f);

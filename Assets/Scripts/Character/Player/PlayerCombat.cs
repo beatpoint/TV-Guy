@@ -9,6 +9,8 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField]
     private int m_basicAttackCount;
     private int m_basicAttackCounter;
+    [SerializeField]
+    private Vector2 m_basicAttack3Knockback;
     private bool m_canAttack = true;
     private CharacterState m_state;
     private PlayerMovement m_movement;
@@ -39,6 +41,12 @@ public class PlayerCombat : MonoBehaviour
         }
         m_animation.IsAttacking(true, m_basicAttackCounter);
         //return m_basicAttackCounter;
+    }
+
+    public void ExecuteBasicAttack3Knockback()
+    {
+        m_movement.SetKnockbackForce(m_basicAttack3Knockback);
+        m_movement.Knockback();
     }
 
     public void StopAttacking()
