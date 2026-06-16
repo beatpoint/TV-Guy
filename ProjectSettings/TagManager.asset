@@ -15,7 +15,7 @@ TagManager:
   - PlayableGround
   - Background
   - Player
-  - 
+  - Enemies
   - 
   - 
   - 
@@ -41,5 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Enemy
+    uniqueID: 3976210459
+    locked: 0
+  - name: Player
+    uniqueID: 764611675
+    locked: 0
   m_RenderingLayers:
   - Default
+  m_MigratedRenderPipelines: []
