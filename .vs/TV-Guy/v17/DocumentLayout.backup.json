@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|d:\\personal files\\work\\projects\\tv-guy\\assets\\scripts\\character\\characterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\characterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal Files\\Work\\Projects\\TV-Guy\\Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5\\IK\\Editor\\IKGizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5\\IK\\Editor\\IKGizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|d:\\personal files\\work\\projects\\tv-guy\\assets\\scripts\\character\\enemies\\theprimetimedrama\\theprimetimedramaai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\enemies\\theprimetimedrama\\theprimetimedramaai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\enemies\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\enemies\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\enemies\\theprimetimedrama\\theprimetimedramaanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\enemies\\theprimetimedrama\\theprimetimedramaanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\enemies\\enemyanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\enemies\\enemyanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Personal Files\\Work\\Projects\\TV-Guy\\Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5\\IK\\Editor\\IKGizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5\\IK\\Editor\\IKGizmos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\system\\gameplay\\groundchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|D:\\Personal Files\\Work\\Projects\\TV-Guy\\assets\\scripts\\character\\characterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B73CEB0-2EB9-E636-CAEA-8104A14C93F9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\characterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +62,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ThePrimetimeDramaAI.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAI.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T02:23:50.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Enemies\\EnemyAI.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Enemies\\EnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T01:56:03.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyAnimation.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\EnemyAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Enemies\\EnemyAnimation.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\EnemyAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Enemies\\EnemyAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T01:49:08.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThePrimetimeDramaAnimation.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAnimation.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Enemies\\ThePrimetimeDrama\\ThePrimetimeDramaAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T01:34:37.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Health.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Health.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T01:49:43.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAiwO8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:56:06.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerAnimation.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:56:06.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T07:47:10.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerCombat.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:56:06.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
+              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:56:06.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IKGizmos.cs",
               "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5\\IK\\Editor\\IKGizmos.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.animation@a6f2f1d22eb5\\IK\\Editor\\IKGizmos.cs",
@@ -59,68 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
-              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAowHAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T04:56:06.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerAnimation.cs",
-              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
-              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerAnimation.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswCcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T04:56:06.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
-              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T07:47:10.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerCombat.cs",
-              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
-              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerCombat.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T04:56:06.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerInput.cs",
-              "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
-              "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Player\\PlayerInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T04:56:06.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "GroundChecker.cs",
               "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\System\\Gameplay\\GroundChecker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\System\\Gameplay\\GroundChecker.cs",
@@ -129,18 +209,40 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAkwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T04:56:06.368Z"
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "fd13429f-9f87-472f-8b64-b99e37f73dbc",
+        "Display": 1,
+        "X": 534,
+        "Y": 448,
+        "Width": 1553,
+        "Height": 784,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "CharacterState.cs",
               "DocumentMoniker": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\CharacterState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterState.cs",
               "ToolTip": "D:\\Personal Files\\Work\\Projects\\TV-Guy\\Assets\\Scripts\\Character\\CharacterState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\CharacterState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T04:56:06.371Z"
+              "WhenOpened": "2026-05-04T04:56:06.371Z",
+              "EditorCaption": ""
             }
           ]
         }

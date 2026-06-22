@@ -42,7 +42,7 @@ public class PlayerHealth : Health
         yield return null;
     }
 
-    private void Die()
+    public void Die()
     {
         m_characterObject.SetActive(false);
     }

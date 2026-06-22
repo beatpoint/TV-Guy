@@ -61,17 +61,22 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Character\Enemies\ThePrimetimeDrama\ThePrimetimeDramaAI.cs" />
     <Compile Include="Assets\Scripts\Character\Health.cs" />
     <Compile Include="Assets\Scripts\Character\Player\PlayerCombat.cs" />
+    <Compile Include="Assets\Scripts\Character\Enemies\EnemyAnimation.cs" />
     <Compile Include="Assets\Scripts\Character\Attack.cs" />
     <Compile Include="Assets\Scripts\System\Gameplay\GroundChecker.cs" />
     <Compile Include="Assets\Scripts\Character\Damage.cs" />
     <Compile Include="Assets\Scripts\Character\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Character\Player\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Character\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Character\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Character\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Character\Enemies\ThePrimetimeDrama\ThePrimetimeDramaAnimation.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterState.cs" />
     <Compile Include="Assets\Scripts\Character\Player\PlayerAnimation.cs" />
+    <Compile Include="Assets\Scripts\Character\PatrolVisualizer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />

@@ -25,4 +25,9 @@ public class Health : MonoBehaviour
         m_damageLocation = damageLocation;
         m_takenDamageEvent.Invoke();
     }
+
+    public void Die()
+    {
+
+    }
 }

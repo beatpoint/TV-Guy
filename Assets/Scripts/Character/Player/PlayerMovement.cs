@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static Transform Instance;
     [SerializeField]
     private Rigidbody2D m_rigidbody2D;
     [SerializeField]
@@ -168,6 +169,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this.transform;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_state.ChangeState(CharacterState.State.Idle);
         m_state.ChangeGroundnessState(CharacterState.GroundnessState.OnGround);

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6840415102965930457}
+  - component: {fileID: 6271626549266912330}
   m_Layer: 10
   m_Name: ThePrimetimeDramaBody
   m_TagString: Untagged
@@ -35,6 +36,25 @@ Transform:
   - {fileID: 9218378860757053647}
   m_Father: {fileID: 1088319925461005541}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6271626549266912330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453447563429511495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedf70b57e970b649bffbd8fed2e0fbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatrolVisualizer
+  m_pathColor: {r: 0, g: 1, b: 0, a: 1}
+  m_pointColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_circleRadius: 0.25
+  m_loopPath: 1
+  m_localPatrolPoints:
+  - {x: -5, y: 0}
+  - {x: 5, y: 0}
 --- !u!1 &1534471963404857446
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,8 +132,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -318756837
+  m_SortingLayer: 1
   m_SortingOrder: 14
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5779019765679313522, guid: 2b2b0601bfe066f4ca2cf06633f32cf4, type: 3}
